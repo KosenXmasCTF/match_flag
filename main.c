@@ -2,6 +2,9 @@
 #include<string.h>
 
 int main() {
+  setvbuf(stdin, NULL, _IONBF, 0);
+  setvbuf(stdout, NULL, _IONBF, 0);
+
 	FILE *fp = fopen("./flag.txt", "r");
 	char flag[0x100];
 	fgets(flag, 0x100, fp);
