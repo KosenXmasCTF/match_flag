@@ -1,8 +1,13 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include<string.h>
 
 int main() {
 	FILE *fp = fopen("./flag.txt", "r");
+	if(fp == NULL) {
+		puts("flag.txt not found!");
+		exit(0);
+	}
 	char flag[0x100];
 	fgets(flag, 0x100, fp);
 
