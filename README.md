@@ -1,6 +1,6 @@
 # match_flag
-![Genre: reversing](https://img.shields.io/badge/genre-reversing-brightgreen?style=for-the-badge)
-![Difficulty: Normal](https://img.shields.io/badge/difficulty-Normal-blue?style=for-the-badge)
+![Genre: pwn](https://img.shields.io/badge/genre-pwn-brightgreen?style=for-the-badge)
+![Difficulty: Beginner](https://img.shields.io/badge/difficulty-Beginner-blue?style=for-the-badge)
 ![Author: iwancof](https://img.shields.io/badge/author-iwancof-lightgrey?style=for-the-badge)
 
 彼はフラグを隠し持っているらしい。
