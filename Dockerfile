@@ -27,4 +27,5 @@ RUN chmod 550 /home/pwn/entry.sh
 RUN chown -R root:pwn /home/pwn
 
 WORKDIR /home/pwn
+USER pwn
 ENTRYPOINT /bin/sh /home/pwn/entry.sh
