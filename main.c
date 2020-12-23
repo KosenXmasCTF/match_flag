@@ -1,8 +1,14 @@
 #include<stdio.h>
+#include<unistd.h>
 #include<stdlib.h>
 #include<string.h>
 
 int main() {
+	// set up for CTF
+  setvbuf(stdin, NULL, _IONBF, 0);
+  setvbuf(stdout, NULL, _IONBF, 0);
+	alarm(60);
+
 	FILE *fp = fopen("./flag.txt", "r");
 	if(fp == NULL) {
 		puts("flag.txt not found!");
