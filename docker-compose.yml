@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  socat:
+    build: '.'
+    image: '${IMAGE_NAME}'
+    container_name: 'match_flag'
+    ports:
+      - '9003:9003/tcp'
